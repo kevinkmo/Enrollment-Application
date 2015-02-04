@@ -1,0 +1,9 @@
+C:\Users\jiaju\Desktop\SL136\DAL\bin\Debug\136Repository.dll
+C:\Users\jiaju\Desktop\SL136\DAL\bin\Debug\136Repository.pdb
+C:\Users\jiaju\Desktop\SL136\DAL\bin\Debug\136IRepository.dll
+C:\Users\jiaju\Desktop\SL136\DAL\bin\Debug\POCO.dll
+C:\Users\jiaju\Desktop\SL136\DAL\bin\Debug\136IRepository.pdb
+C:\Users\jiaju\Desktop\SL136\DAL\bin\Debug\POCO.pdb
+C:\Users\jiaju\Desktop\SL136\DAL\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\jiaju\Desktop\SL136\DAL\obj\Debug\136Repository.dll
+C:\Users\jiaju\Desktop\SL136\DAL\obj\Debug\136Repository.pdb

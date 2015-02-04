@@ -1,0 +1,16 @@
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\136Service.dll
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\136Service.pdb
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\136IRepository.dll
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\Ninject.dll
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\POCO.dll
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\136IRepository.pdb
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\POCO.pdb
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\Ninject.pdb
+C:\Users\jiaju\Desktop\SL136\BL\bin\Debug\Ninject.xml
+C:\Users\jiaju\Desktop\SL136\BL\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\jiaju\Desktop\SL136\BL\obj\Debug\136Service.dll
+C:\Users\jiaju\Desktop\SL136\BL\obj\Debug\136Service.pdb

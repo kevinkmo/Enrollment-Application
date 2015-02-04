@@ -1,0 +1,12 @@
+C:\Users\jiaju\Desktop\SL136\DALTest\bin\Debug\136RepositoryTest.dll.config
+C:\Users\jiaju\Desktop\SL136\DALTest\bin\Debug\136RepositoryTest.dll
+C:\Users\jiaju\Desktop\SL136\DALTest\bin\Debug\136RepositoryTest.pdb
+C:\Users\jiaju\Desktop\SL136\DALTest\bin\Debug\136IRepository.dll
+C:\Users\jiaju\Desktop\SL136\DALTest\bin\Debug\136Repository.dll
+C:\Users\jiaju\Desktop\SL136\DALTest\bin\Debug\POCO.dll
+C:\Users\jiaju\Desktop\SL136\DALTest\bin\Debug\136Repository.pdb
+C:\Users\jiaju\Desktop\SL136\DALTest\bin\Debug\136IRepository.pdb
+C:\Users\jiaju\Desktop\SL136\DALTest\bin\Debug\POCO.pdb
+C:\Users\jiaju\Desktop\SL136\DALTest\obj\Debug\RepositoryTest.csprojResolveAssemblyReference.cache
+C:\Users\jiaju\Desktop\SL136\DALTest\obj\Debug\136RepositoryTest.dll
+C:\Users\jiaju\Desktop\SL136\DALTest\obj\Debug\136RepositoryTest.pdb

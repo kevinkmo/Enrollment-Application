@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "CreateEnrollment";
+    var id = ViewBag.Id;
+}
+
+<h3>Create a new Enrollment</h3>
+<a href="/Staff/StudentList"><< back</a>
+<div id="divEnrollment">
+    <table>
+        <tr>
+            <td>StudentId</td>
+            <td><input data-bind="value: studentId" /> </td>
+        </tr>
+        <tr>
+            <td>ScheduleId</td>
+            <td><input data-bind="value: scheduleId" /></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td><button data-bind="click: add">Add</button></td>
+        </tr>
+    </table>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        require(['ViewModels/StudentViewModel'], function (studentViewModel) {
+            var obj = new studentViewModel();
+            obj.InsertEnrollment("@id");
+        });
+    });
+</script>

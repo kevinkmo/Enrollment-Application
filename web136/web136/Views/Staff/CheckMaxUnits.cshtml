@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "CheckMaxUnits";
+}
+
+<h2>CheckMaxUnits</h2>
+
+<a href="/Staff/Index"><< back</a>
+<div id="divStudentListContent">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>  
+                <th>Total Units</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: viewModel">
+            <tr>
+                <td data-bind="text: id"></td>
+           
+                <td data-bind="text: Total_Unit"></td>
+         
+            </tr>
+        </tbody>
+    </table>
+   
+</div>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        require(['ViewModels/CheckMaxUnitsViewModel'], function (CheckMaxUnitsViewModel) {
+            var obj = new CheckMaxUnitsViewModel();
+            obj.GetAll();
+        });
+    });
+</script>

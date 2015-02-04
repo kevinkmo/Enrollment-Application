@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "SharedStudentEnrollment";
+    var id = ViewBag.Id;
+}
+<h3>Current Enrollment</h3>
+
+
+<div id="divEnrollment">
+    <table>
+        <thead>
+            <tr>
+                <th>Quarter</th>
+                <th>ScheduleId</th>
+                <th>Sesssion</th>
+                <th>Year</th>
+                <th>CourseId</th>
+                <th>Title</th>
+
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: viewModel">
+            <tr>
+                
+                <td data-bind="text: quarter"></td>
+                <td data-bind="text: scheduleId"></td>
+                <td data-bind="text: session"></td>
+                <td data-bind="text: year"></td>
+                <td data-bind="text: courseId"></td>
+                <td data-bind="text: title"></td>
+                <td>
+                    <!-- Note, this is an example using knockout templating. $data is the keyword
+                        to for each element of the viewModel array -->
+                    <div data-bind="template: { name: 'action-template', data: $data}"></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</div>
+<li><a href="/Shared/CreateEnrollment?id=@id">Add new Enrollment</a></li>
+<script type="text/html" id="action-template">
+    <a data-bind="DeleteEnrollment: $data">Delete</a>
+    <a data-bind="attr: { href : '/Shared/UpdateGrade?sid=' + $data.studentId+'&id=' +$data.scheduleId }">Update</a>
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        require(['ViewModels/StudentViewModel'], function (studentViewModel) {
+            var o = new studentViewModel();
+            o.GetEnrollment("@id");
+        });
+    });
+</script>

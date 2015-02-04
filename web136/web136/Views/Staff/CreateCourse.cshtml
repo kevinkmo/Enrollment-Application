@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "CreateCourse";
+}
+
+<h3>Create a new Course</h3>
+<a href="/Staff/CourseList"><< back</a>
+<div id="divCourse">
+    <table>
+        <tr>
+            <td>Id</td>
+            <td><input data-bind="value: id" /> </td>
+        </tr>
+        <tr>
+            <td>Title</td>
+            <td><input data-bind="value: title" /></td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td><input data-bind="value: description" /></td>
+        </tr>
+        <tr>
+            <td>PreReq</td>
+            <td><input data-bind="value: prereq" /></td>
+        </tr>
+        <tr>
+            <td>Unit</td>
+            <td><input data-bind="value: unit" /></td>
+        </tr>
+        <tr>
+            <td>Course Level</td>
+            <td><input data-bind="value: course_level" /></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><button data-bind="click: add">Add</button></td>
+        </tr>
+        
+    </table>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        require(['ViewModels/CourseListViewModel'], function (courseListViewModel) {
+            var courseListViewModelObj = new courseListViewModel();
+            courseListViewModelObj.Initialize();
+        });
+    });
+</script>

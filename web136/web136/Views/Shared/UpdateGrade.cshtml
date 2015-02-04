@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "UpdateGrade";
+    var id = ViewBag.Id;
+    var sid = ViewBag.Sid;
+}
+<h2>Update Grade</h2>
+
+<div id="divEnrollment">
+    <table>
+        <tr>
+            <td>Grade</td>
+            <td><input type="text" data-bind="value: $data.Grade" /> </td>
+        </tr>
+
+    </table>
+    <input type="button" data-bind="value: 'Update', click: $data.update" style="margin-left:20px" />
+    <br /><br />
+    <div id="divMessage"></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        require(['ViewModels/StudentViewModel'], function (studentViewModel) {
+            var obj = new studentViewModel();
+            obj.GetReady("@id","@sid");
+        });
+    });
+</script>

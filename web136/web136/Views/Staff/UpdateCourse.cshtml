@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "UpdateCourse";
+    var id = ViewBag.Id;
+}
+<a href="/Staff/CourseList"><< back</a>
+    <h2>Update Course Detail</h2>
+
+    <div id="divCourse">
+    <table>
+        <tr>
+            <td>Id</td>
+            <td><input type="text" data-bind="value: $data.id" /> </td>
+        </tr>
+        <tr>
+            <td>Title</td>
+            <td><input type="text" data-bind="value: $data.title" /></td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td><input type="text" data-bind="value: $data.description" /></td>
+        </tr>
+        <tr>
+            <td>PreReq</td>
+            <td><input type="text" data-bind="value: $data.prereq" /></td>
+        </tr>
+        <tr>
+            <td>Unit</td>
+            <td><input type="text" data-bind="value: $data.unit" /></td>
+        </tr>
+        <tr>
+            <td>Course Level</td>
+            <td><input type="text" data-bind="value: $data.level" /></td>
+        </tr>
+
+    </table>
+    <input type="button" data-bind="value: 'Update', click: $data.update" style="margin-left:10px" />
+     <br /><br />
+    <div id="divMessage"></div>  
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        require(['ViewModels/CourseListViewModel'], function (courseListViewModel) {
+            var obj = new courseListViewModel();
+            obj.GetDetail(@id);
+        });
+    });
+</script>

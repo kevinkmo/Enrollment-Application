@@ -1,0 +1,4 @@
+C:\Users\jiaju\Desktop\SL136\POCO\bin\Debug\POCO.dll
+C:\Users\jiaju\Desktop\SL136\POCO\bin\Debug\POCO.pdb
+C:\Users\jiaju\Desktop\SL136\POCO\obj\Debug\POCO.dll
+C:\Users\jiaju\Desktop\SL136\POCO\obj\Debug\POCO.pdb
